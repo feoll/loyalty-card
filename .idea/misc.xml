@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Projects/Android/LoyaltyCard/app/src/main/res/layout/activity_main.xml" value="0.286231884057971" />
+        <entry key="..\:/Projects/Android/LoyaltyCard/app/src/main/res/layout/fragment_add_discount_card.xml" value="0.286231884057971" />
         <entry key="..\:/Projects/Android/LoyaltyCard/app/src/main/res/layout/fragment_bank_card.xml" value="0.286231884057971" />
         <entry key="..\:/Projects/Android/LoyaltyCard/app/src/main/res/layout/fragment_discount_card.xml" value="0.286231884057971" />
         <entry key="..\:/Projects/Android/LoyaltyCard/app/src/main/res/layout/row_discount_card.xml" value="0.286231884057971" />

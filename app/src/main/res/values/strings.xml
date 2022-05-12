@@ -7,4 +7,5 @@
     <string name="bank_cards">Bank cards</string>
     <string name="discount_cards">Discount cards</string>
     <string name="add">Add</string>
+    <string name="create">Create</string>
 </resources>

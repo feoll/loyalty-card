@@ -14,5 +14,14 @@
         android:id="@+id/discountCardFragment"
         android:name="com.example.loyaltycard.fragments.discountCard.DiscountCardFragment"
         android:label="@string/fragment_discount_card"
-        tools:layout="@layout/fragment_discount_card" />
+        tools:layout="@layout/fragment_discount_card" >
+        <action
+            android:id="@+id/action_discountCardFragment_to_addDiscountCardFragment"
+            app:destination="@id/addDiscountCardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addDiscountCardFragment"
+        android:name="com.example.loyaltycard.AddDiscountCardFragment"
+        android:label="@string/create"
+        tools:layout="@layout/fragment_add_discount_card" />
 </navigation>
