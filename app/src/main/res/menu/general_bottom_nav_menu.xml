@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/bankCardFragment"
+        android:title="@string/bank_cards"
+        android:icon="@drawable/ic_bank_card"/>
+    <item android:id="@+id/discountCardFragment"
+        android:title="@string/discount_cards"
+        android:icon="@drawable/ic_discount_card"/>
+
+</menu>
