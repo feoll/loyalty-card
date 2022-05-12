@@ -1,10 +1,11 @@
-package com.example.loyaltycard
+package com.example.loyaltycard.fragments.addDiscountCard
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.example.loyaltycard.R
 
 
 class AddDiscountCardFragment : Fragment() {

@@ -21,7 +21,7 @@
     </fragment>
     <fragment
         android:id="@+id/addDiscountCardFragment"
-        android:name="com.example.loyaltycard.AddDiscountCardFragment"
+        android:name="com.example.loyaltycard.fragments.addDiscountCard.AddDiscountCardFragment"
         android:label="@string/create"
         tools:layout="@layout/fragment_add_discount_card" />
 </navigation>
