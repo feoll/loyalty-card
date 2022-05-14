@@ -9,7 +9,15 @@
         android:id="@+id/bankCardFragment"
         android:name="com.example.loyaltycard.fragments.bankCard.BankCardFragment"
         android:label="@string/fragmet_bank_card"
-        tools:layout="@layout/fragment_bank_card" />
+        tools:layout="@layout/fragment_bank_card" >
+        <action
+            android:id="@+id/action_bankCardFragment_to_addBankCardFragment"
+            app:destination="@id/addBankCardFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
     <fragment
         android:id="@+id/discountCardFragment"
         android:name="com.example.loyaltycard.fragments.discountCard.DiscountCardFragment"
@@ -24,4 +32,17 @@
         android:name="com.example.loyaltycard.fragments.addDiscountCard.AddDiscountCardFragment"
         android:label="@string/create"
         tools:layout="@layout/fragment_add_discount_card" />
+    <fragment
+        android:id="@+id/addBankCardFragment"
+        android:name="com.example.loyaltycard.fragments.addBankCard.AddBankCardFragment"
+        android:label="@string/add_card_fragment_name"
+        tools:layout="@layout/fragment_add_bank_card" >
+        <action
+            android:id="@+id/action_addBankCardFragment_to_bankCardFragment"
+            app:destination="@id/bankCardFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
 </navigation>

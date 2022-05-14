@@ -12,4 +12,13 @@
     <string name="card_number">Card number</string>
     <string name="description">Description</string>
     <string name="search">Search</string>
+    <string name="bank_card_name">Card Name</string>
+    <string name="bank_name">Bank Name</string>
+    <string name="bank_card_number">Number</string>
+    <string name="bank_card_date">Date</string>
+    <string name="bank_card_pin">PIN</string>
+    <string name="bank_card_cvv">CVV</string>
+    <string name="bank_card_holder">Card Holder</string>
+    <string name="save">Save</string>
+    <string name="add_card_fragment_name">Add card</string>
 </resources>

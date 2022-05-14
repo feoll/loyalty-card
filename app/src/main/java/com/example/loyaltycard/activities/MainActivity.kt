@@ -2,6 +2,7 @@ package com.example.loyaltycard.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import androidx.databinding.DataBindingUtil
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
@@ -26,6 +27,16 @@ class MainActivity : AppCompatActivity() {
         //Контроллер который нужен для работы навигации, переходов и т.д.
         navController = (supportFragmentManager.findFragmentById(R.id.fragmentContainerView)
                 as NavHostFragment).navController
+
+        //Выключаем нижнюю навигацию в других фрагментах
+        navController.addOnDestinationChangedListener { _, destination, _ ->
+            when(destination.id) {
+                R.id.bankCardFragment, R.id.discountCardFragment ->
+                    binding.bottomNavigationView.visibility = View.VISIBLE
+                else ->
+                    binding.bottomNavigationView.visibility = View.GONE
+            }
+        }
 
         //Настраивает нижнюю навигацию, позволяет делать переходы, отображает выбранный пункт меню
         binding.bottomNavigationView.setupWithNavController(navController)

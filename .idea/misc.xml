@@ -4,10 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Projects/Android/LoyaltyCard/app/src/main/res/layout/activity_main.xml" value="0.286231884057971" />
+        <entry key="..\:/Projects/Android/LoyaltyCard/app/src/main/res/layout/fragment_add_bank_card.xml" value="0.16666666666666666" />
         <entry key="..\:/Projects/Android/LoyaltyCard/app/src/main/res/layout/fragment_add_discount_card.xml" value="0.286231884057971" />
         <entry key="..\:/Projects/Android/LoyaltyCard/app/src/main/res/layout/fragment_bank_card.xml" value="0.286231884057971" />
         <entry key="..\:/Projects/Android/LoyaltyCard/app/src/main/res/layout/fragment_discount_card.xml" value="0.286231884057971" />
+        <entry key="..\:/Projects/Android/LoyaltyCard/app/src/main/res/layout/row_bank_card.xml" value="0.3342391304347826" />
         <entry key="..\:/Projects/Android/LoyaltyCard/app/src/main/res/layout/row_discount_card.xml" value="0.286231884057971" />
+        <entry key="..\:/Projects/Android/LoyaltyCard/app/src/main/res/menu/add_bank_card_fragment_menu.xml" value="0.35885416666666664" />
         <entry key="..\:/Projects/Android/LoyaltyCard/app/src/main/res/menu/bank_fragment_menu.xml" value="0.35885416666666664" />
         <entry key="..\:/Projects/Android/LoyaltyCard/app/src/main/res/menu/general_bottom_nav_menu.xml" value="0.35989583333333336" />
       </map>
