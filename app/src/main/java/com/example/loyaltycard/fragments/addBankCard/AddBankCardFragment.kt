@@ -41,8 +41,10 @@ class AddBankCardFragment : Fragment() {
     fun saveData() {
         val cardName: String = binding.cardName.editText!!.text.toString().trim()
         val bankName: String = binding.bankName.editText!!.text.toString().trim()
-        val number: String = binding.cardNumber.editText!!.text.toString().trim()
-        val date: String = binding.cardDate.editText!!.text.toString().trim()
+        val numberStr: String = binding.cardNumber.editText!!.text.toString().trim()
+        val number = StringBuffer(numberStr).insert(12, "   ").insert(8, "   ").insert(4, "   ").toString().trim()
+        val dateStr: String = binding.cardDate.editText!!.text.toString().trim()
+        val date = StringBuffer(dateStr).insert(2, "/").toString()
         val pin: Int = binding.cardPin.editText!!.text.toString().trim().toInt()
         val cvv: Int = binding.cardCVV.editText!!.text.toString().trim().toInt()
         val cardHolder: String = binding.cardHolder.editText!!.text.toString().trim()

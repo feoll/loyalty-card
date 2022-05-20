@@ -21,4 +21,10 @@
     <string name="bank_card_holder">Card Holder</string>
     <string name="save">Save</string>
     <string name="add_card_fragment_name">Add card</string>
+    <string name="month_year">MONTH/YEAR</string>
+    <string name="valid_nthru">VALID\nTHRU</string>
+    <string name="cvv">CVV:</string>
+    <string name="pin">PIN:</string>
+    <string name="rotate_card">Rotate card</string>
+    <string name="card_chip">Card chip</string>
 </resources>

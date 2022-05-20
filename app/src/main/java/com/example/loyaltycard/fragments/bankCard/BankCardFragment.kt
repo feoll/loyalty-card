@@ -35,7 +35,10 @@ class BankCardFragment : Fragment() {
             findNavController().navigate(direction)
         }
 
+
         binding.bankCardRecyclerView.adapter = adapter
+        binding.bankCardRecyclerView.setHasFixedSize(true)
+        binding.bankCardRecyclerView.setItemViewCacheSize(20)
         binding.bankCardRecyclerView.layoutManager = LinearLayoutManager(requireContext())
         binding.lifecycleOwner = this
 

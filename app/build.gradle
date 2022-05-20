@@ -66,4 +66,6 @@ dependencies {
     // Kotlin components
     api "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0"
     api "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0"
+
+    implementation("com.vinaygaba:creditcardview:1.0.4")
 }
